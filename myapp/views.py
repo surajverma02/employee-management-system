@@ -19,6 +19,7 @@ def index(request):
     print("Index Page Is Called !")
     # return HttpResponse("<h1>Welcome to the world of Programming</h1>")
     return render(request, "home.html", {})
+    # return render(request, "emp/home.html", {})
 
 def about(request):
     print("About Page Is Called !")
